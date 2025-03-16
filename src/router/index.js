@@ -34,6 +34,11 @@ const routes = [
     path: '/:pathMatch(.*)*',
     name: 'not-found',
     component: () => import('@/views/NotFoundView.vue')
+  },
+  {
+    path: '/memory-game',
+    name: 'memory-game',
+    component: () => import('@/views/MemoryGameView.vue')
   }
 ]
 

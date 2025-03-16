@@ -21,6 +21,9 @@
               <router-link class="nav-link" to="/persons" active-class="active">Выдающиеся личности</router-link>
             </li>
             <li class="nav-item">
+            <router-link class="nav-link" to="/memory-game" active-class="active">Игра "Мемо"</router-link>
+          </li>
+            <li class="nav-item">
               <router-link class="nav-link" to="/contact" active-class="active">Контакты</router-link>
             </li>
           </ul>
